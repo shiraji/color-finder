@@ -19,9 +19,11 @@ sourceCompatibility = JavaVersion.VERSION_1_6
 targetCompatibility = JavaVersion.VERSION_1_6
 
 intellij {
-    version '143.2370.31'
+    version '15.0.4'
     pluginName 'Android Color Finder'
     alternativeIdePath = '/Applications/Android Studio.app'
+    updateSinceUntilBuild = false
+    sameSinceUntilBuild = false
     publish {
         username 'shiraji'
         password '' // please fill in

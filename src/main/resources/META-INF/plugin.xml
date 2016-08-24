@@ -12,7 +12,7 @@
     </change-notes>
 
     <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
-    <idea-version since-build="143.2370.31"/>
+    <idea-version since-build="143"/>
 
     <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
          on how to target different products -->
@@ -30,6 +30,11 @@
     </project-components>
 
     <actions>
+        <action id="com.github.shiraji.colorfinder.ColorFinderAction"
+                class="com.github.shiraji.colorfinder.ColorFinderAction"
+                text="Find a color...">
+            <add-to-group group-id="JavaGenerateGroup1" anchor="last"/>
+        </action>
     </actions>
 
 </idea-plugin>
