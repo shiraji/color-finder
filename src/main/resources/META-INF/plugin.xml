@@ -21,7 +21,7 @@
     -->
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow id="FindColorToolWindow"
+        <toolWindow id="ColorFinder"
                     anchor="right"
                     factoryClass="com.github.shiraji.colorfinder.view.ColorFinderToolWindow"/>
     </extensions>
